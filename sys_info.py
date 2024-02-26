@@ -22,6 +22,4 @@ def get_system_info():
         return None
 
 ip_address = get_ip_address()
-system_info = get_system_info()
-
 battery, memory, cpu = get_system_info()
