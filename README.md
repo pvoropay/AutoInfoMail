@@ -20,21 +20,21 @@ AutoInfoEmail is a simple Python program designed to automatically send computer
 
 ## Installation
 
- 1.Initialize Git in your folder
+1.Initialize Git in your folder
    ```bash
    git init
    ```
- 2. Clone or download the repository to your local machine.
+2. Clone or download the repository to your local machine.
    ```bash
    git clone <url>
    ```
- 3. Install the required Python libraries:
+3. Install the required Python libraries:
 
     ```bash
     pip install psutil win32com
     ```
 
- 4.Configure the script:
+4. Configure the script:
    - Open `mail.py` and specify the email settings such as sender email, recipient email, SMTP server, and port.
    **Note**: When setting up the script to run on startup, keep in mind that you may need to input your email login credentials. Ensure that you're comfortable with this setup and consider using a less important email account for this purpose due to security considerations.  
 5. Optionally, customize the email message in `mail.py`.
