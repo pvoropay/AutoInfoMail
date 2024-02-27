@@ -20,8 +20,8 @@ def send_email():
         server.login(smtp_username, smtp_password)
 
         msg = MIMEMultipart()
-        msg["From"] = "testingapp345@outlook.com" 
-        msg["To"] = "pavel.vorop2004@gmail.com"
+        msg["From"] = "your@outlook.com" 
+        msg["To"] = "your@outlook.com"
         msg["Subject"] = "PC is Turned On"
         message = f"Current IP Address: {ip_adress}\nBattery: {battery}%\nFree RAM Memory: {memory:.2f} MB\nCPU load: {cpu}%"
         msg.attach(MIMEText(message, "plain"))
