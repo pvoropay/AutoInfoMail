@@ -20,10 +20,7 @@ AutoInfoEmail is a simple Python program designed to automatically send computer
 
 ## Installation
 
-1.Initialize Git in your folder
-   ```bash
-   git init
-   ```
+1. Install Git on your PC or laptop -> https://git-scm.com/download/win
 2. Clone or download the repository to your local machine.
    ```bash
    git clone <url>
