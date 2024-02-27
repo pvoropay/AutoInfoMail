@@ -13,5 +13,5 @@ def add_to_startup(file_path):
     shortcut.save()
 
 if __name__ == "__main__":
-    mail_script_path = r'~\TurnOn\mail.py' # change path to the mail.py script
+    mail_script_path = r'~\AutoInfoMail\mail.py' # change path to the mail.py script
     add_to_startup(mail_script_path)
