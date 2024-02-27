@@ -23,3 +23,4 @@ def get_system_info():
 
 ip_address = get_ip_address()
 battery, memory, cpu = get_system_info()
+#receives the necessary information from your computer
